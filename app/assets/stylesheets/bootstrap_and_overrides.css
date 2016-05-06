@@ -1,0 +1,231 @@
+@import "twitter/bootstrap/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: image-url("twitter/bootstrap/glyphicons-halflings.png");
+@iconWhiteSpritePath: image-url("twitter/bootstrap/glyphicons-halflings-white.png");
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+@fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
+@fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+
+// Font Awesome
+@import "fontawesome/font-awesome";
+// Glyphicons
+//@import "twitter/bootstrap/sprites.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+//@linkColor: #ff0000;
+a:hover{
+	text-decoration:none;	
+	color:rgba(72, 72, 72, 1);
+}
+.nav-tabs > li > a {
+border: 1px solid rgba(51, 50, 66, 0.2)
+}
+.btn-primary{
+background-color: #C4C7C8;
+background-image: linear-gradient(to bottom, #C4C7C8, #82858B)
+}
+.btn-success{
+	background-color: #C4C7C8;
+	background-image: linear-gradient(to bottom, #C4C7C8, #82858B);
+	color:white;
+}
+
+.btn-info{
+	background-color: #FF0080;
+	background-image: linear-gradient(to bottom, #C4C7C8, #82858B);
+}
+.btn-success:hover{
+	background-color: #82858B;	
+	background-image: linear-gradient(to bottom, #C4C7C8, #82858B)
+}
+.text-success {
+    color: white;
+}
+.botonterminar{
+    width:70px;
+    height:50px;
+	margin-bottom: 25px;
+    background :#ffffff;
+}
+
+
+a.text-success:hover, a.text-success:focus {
+    color: white;
+    background-color: #C4C7C8;
+}
+.btn-primary:hover{
+background-color: #7B7C80;
+}
+.btn-primary:focus{
+background-color: #7B7C80;
+}
+.btn-primary:visited{
+background-color: #7B7C80;
+}
+.btn-group.open .btn-primary.dropdown-toggle{
+	background-color: #7B7C80;
+}
+
+.pagination li {
+	display: inline;
+
+}
+
+a{
+color: rgba(23, 23, 23, 1);
+}
+
+//a:visited{color: rgba(9, 65, 255, 0.2);
+//background-color: rgba(9, 65, 255, 0.2);
+//}
+
+a:focus{
+color: rgba(23, 23, 23, 1);
+text-decoration: none;
+}
+
+a{
+color: rgba(23, 23, 23, 1);
+}
+
+textarea{
+	width: 90%;
+}
+.error {
+	color: red;
+	display :block;
+	font-size :12px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+}
+
+
+
+.guardar{
+	text-align: right;
+}
+.span11{
+	text-align: center;
+}
+.span1{
+	text-align: left;
+}
+.span2{
+	text-align: left;
+}
+.span3{
+	text-align: left;
+}
+.span4{
+	text-align: left;
+}
+.span5{
+	text-align: left;
+}
+.span6{
+	text-align: left;
+}
+.span7{
+	text-align: left;
+}
+.span8{
+	text-align: left;
+}
+.span9{
+	text-align: left;
+}
+.btn-default{
+	width:350px;
+	margin-bottom: 10px;
+
+}
+.btn-default1{
+	width:100px;
+	margin-bottom: 10px;
+    background :#A1A1A1;
+
+
+}
+#imagen_home{
+	width: 350px;
+}
+input[type="text"]:disabled {
+    background: #A1A1A1;
+} 
+textarea:disabled {
+    background: #A1A1A1;
+} 
+body{
+	padding-bottom: 0px;
+}
+.tabla td{
+	text-align: left;
+	border-top: none;
+}
+
+.tabla{
+	width: 50%;
+}
+.tabla2 td{
+	text-align: center;
+	border-top: none;
+}
+.tabla2{
+	width: 80%;
+}
+
+
+label.error1 { color: blue; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px; }
+
+
+.day.today{
+	background :#81BEF7;
+}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.anex {
+padding: 10px 40px; 
+width: 300px;
+border: 1px solid #000000;
+
+background: #dddddd;
+color:#000000;
+width:100% ;
+cellpadding: 10; cellspacing: 15;
+
+}
+
+
+.contenedor {
+	width: 100%;
+}
+
+.table{
+	border: 2px solid #000000;
+
+}
